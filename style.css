@@ -198,7 +198,7 @@ url("images/portada.png");
 
 section{
 
-    padding:60px 10%;
+    padding:50px 10%;
 
 }
 
@@ -210,7 +210,7 @@ section h2{
 
     font-size:3rem;
 
-    margin-bottom:60px;
+    margin-bottom:50px;
 
 }
 
@@ -280,7 +280,7 @@ audio{
 
     align-items:center;
 
-    gap:70px;
+    gap:50px;
 
     max-width:1200px;
 
