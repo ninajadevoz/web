@@ -179,28 +179,42 @@
     <!-- CONTACTO -->
     <!-- ===================== -->
 
-    <section id="contacto">
+ <!-- ===================== -->
+<!-- CONTACTO -->
+<!-- ===================== -->
 
-        <h2>Contacto</h2>
+<section id="contacto">
 
-        <form>
+    <h2>Contacto</h2>
 
-            <input type="text" placeholder="Nombre">
+    <form action="https://formspree.io/f/xaqrydpb" method="POST">
 
-            <input type="email" placeholder="Email">
+        <input
+            type="text"
+            name="nombre"
+            placeholder="Nombre"
+            required>
 
-            <textarea placeholder="Cuéntame tu proyecto"></textarea>
+        <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required>
 
-            <button type="submit">
+        <textarea
+            name="mensaje"
+            placeholder="Cuéntame tu proyecto"
+            required></textarea>
 
-                Solicitar presupuesto
+        <button type="submit">
 
-            </button>
+            Solicitar presupuesto
 
-        </form>
+        </button>
 
-    </section>
+    </form>
 
+</section>
 
     <!-- ===================== -->
     <!-- FOOTER -->
