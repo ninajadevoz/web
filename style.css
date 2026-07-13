@@ -122,11 +122,10 @@ nav a:hover{
 
     padding:120px 20px;
 
-  background:
-linear-gradient(
-rgba(252,252,250,.35),
-rgba(252,252,250,.55)
-),
+ background:
+
+linear-gradient(rgba(252,252,250,.55),rgba(252,252,250,.75)),
+
 url("images/portada.png");
 
     background-size:cover;
