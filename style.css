@@ -286,9 +286,13 @@ section h2{
 
 .card-link{
 
-    display:inline-block;
+    display:block;
 
-    margin-top:8px;
+    width:fit-content;
+
+    margin-top:20px;
+
+    margin-left:auto;
 
     text-decoration:none;
 
