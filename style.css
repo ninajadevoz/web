@@ -830,6 +830,22 @@ footer{
 
 }
 
+.service-intro-text{
+
+    max-width:900px;
+
+    margin:0 auto 65px;
+
+    text-align:center;
+
+    line-height:1.8;
+
+    font-size:1.08rem;
+
+    color:#666;
+
+}
+
 /* ---------- ESTUDIO ---------- */
 
 .studio-container{
