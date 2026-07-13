@@ -274,10 +274,6 @@ audio{
         SOBRE MÍ
 ========================== */
 
-/* ==========================
-        SOBRE MÍ
-========================== */
-
 .about-container{
 
     display:flex;
@@ -473,6 +469,77 @@ section h2{
 
     font-size:2.2rem;
 
+   @media(max-width:900px){
+
+header{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+nav{
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+.hero p{
+
+    font-size:1.1rem;
+
+}
+
+section{
+
+    padding:90px 8%;
+
+}
+
+section h2{
+
+    font-size:2.2rem;
+
+}
+
+/* AÑADE ESTO */
+
+.about-container{
+
+    flex-direction:column;
+
+}
+
+.about-text{
+
+    text-align:center;
+
+}
+
+.about-text h2{
+
+    text-align:center;
+
+}
+
+.about-image img{
+
+    max-width:300px;
+
+}
+
+}
 }
 
 }
