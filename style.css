@@ -156,7 +156,7 @@ url("images/portada.png");
 
     font-size:1.3rem;
 
-    margin-bottom:20px;
+    margin-bottom:30px;
 
 }
 
@@ -198,7 +198,7 @@ url("images/portada.png");
 
 section{
 
-    padding:40px 10%;
+    padding:60px 10%;
 
 }
 
@@ -232,7 +232,7 @@ section h2{
 
     background:white;
 
-    padding:35px;
+    padding:50px;
 
     border-radius:18px;
 
@@ -250,7 +250,7 @@ section h2{
 
 .card h3{
 
-    margin-bottom:15px;
+    margin-bottom:20px;
 
     font-family:"Playfair Display",serif;
 
@@ -266,7 +266,7 @@ audio{
 
     width:100%;
 
-    margin-top:15px;
+    margin-top:20px;
 
 }
 
@@ -280,7 +280,7 @@ audio{
 
     align-items:center;
 
-    gap:20px;
+    gap:40px;
 
     max-width:1200px;
 
@@ -322,13 +322,13 @@ audio{
 
     text-align:left;
 
-    margin-bottom:20px;
+    margin-bottom:40px;
 
 }
 
 .about-text p{
 
-    margin-bottom:10px;
+    margin-bottom:30px;
 
     font-size:1.08rem;
 
@@ -348,7 +348,7 @@ form{
 
     flex-direction:column;
 
-    gap:10px;
+    gap:20px;
 
 }
 
@@ -469,51 +469,7 @@ section h2{
 
     font-size:2.2rem;
 
-   @media(max-width:900px){
-
-header{
-
-    flex-direction:column;
-
-    gap:20px;
-
 }
-
-nav{
-
-    gap:20px;
-
-    flex-wrap:wrap;
-
-    justify-content:center;
-
-}
-
-.hero h1{
-
-    font-size:3rem;
-
-}
-
-.hero p{
-
-    font-size:1.1rem;
-
-}
-
-section{
-
-    padding:90px 8%;
-
-}
-
-section h2{
-
-    font-size:2.2rem;
-
-}
-
-/* AÑADE ESTO */
 
 .about-container{
 
@@ -537,9 +493,6 @@ section h2{
 
     max-width:300px;
 
-}
-
-}
 }
 
 }
