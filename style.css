@@ -198,7 +198,7 @@ url("images/portada.png");
 
 section{
 
-    padding:50px 10%;
+    padding:40px 10%;
 
 }
 
@@ -210,7 +210,7 @@ section h2{
 
     font-size:3rem;
 
-    margin-bottom:40px;
+    margin-bottom:20px;
 
 }
 
@@ -224,7 +224,7 @@ section h2{
 
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 
-    gap:35px;
+    gap:25px;
 
 }
 
@@ -280,7 +280,7 @@ audio{
 
     align-items:center;
 
-    gap:30px;
+    gap:20px;
 
     max-width:1200px;
 
@@ -322,13 +322,13 @@ audio{
 
     text-align:left;
 
-    margin-bottom:30px;
+    margin-bottom:20px;
 
 }
 
 .about-text p{
 
-    margin-bottom:20px;
+    margin-bottom:10px;
 
     font-size:1.08rem;
 
@@ -348,7 +348,7 @@ form{
 
     flex-direction:column;
 
-    gap:20px;
+    gap:10px;
 
 }
 
@@ -417,7 +417,7 @@ footer{
 
     text-align:center;
 
-    padding:50px;
+    padding:20px;
 
     color:#777;
 
