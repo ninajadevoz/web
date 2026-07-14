@@ -740,7 +740,7 @@ footer{
 
     background:
         linear-gradient(rgba(252,252,250,.55),rgba(252,252,250,.75)),
-        url("images/portadapublicitaria.png");
+        url("images/portadapublicitaria.png") center center / cover no-repeat;
 
 }
 
@@ -748,7 +748,7 @@ footer{
 
     background:
         linear-gradient(rgba(252,252,250,.55),rgba(252,252,250,.75)),
-        url("images/portadacorporativo.png");
+        url("images/portadacorporativo.png") center center / cover no-repeat;
 
 }
 
@@ -756,7 +756,7 @@ footer{
 
     background:
         linear-gradient(rgba(252,252,250,.55),rgba(252,252,250,.75)),
-        url("images/portadaelearning.png");
+        url("images/portadaelearning.png") center center / cover no-repeat;
 
 }
 
@@ -764,7 +764,7 @@ footer{
 
     background:
         linear-gradient(rgba(252,252,250,.55),rgba(252,252,250,.75)),
-        url("images/portadanarracion.png");
+        url("images/portadanarracion.png") center center / cover no-repeat;
 
 }
 
