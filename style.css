@@ -106,24 +106,31 @@ header{
 
 .logo{
 
+    display:flex;
+
+    align-items:center;
+
     text-decoration:none;
 
-    font-family:"Playfair Display",serif;
+}
 
-    font-size:1.6rem;
+.logo img{
 
-    color:var(--sage-dark);
+    height:55px;
+
+    width:auto;
+
+    display:block;
 
     transition:.3s;
 
 }
 
-.logo:hover{
+.logo:hover img{
 
-    color:var(--text);
+    transform:scale(1.03);
 
 }
-
 
 /* ==========================================
    NAVEGACIÓN
