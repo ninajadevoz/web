@@ -280,6 +280,16 @@ section h2{
    TARJETAS
 ========================================== */
 
+.home-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
 .cards{
 
     display:grid;
