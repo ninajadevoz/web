@@ -583,7 +583,73 @@ audio{
 
 }
 
+/* ==========================================
+   DETRÁS DE LA VOZ
+========================================== */
 
+.about-section{
+
+    background:var(--sage-dark);
+
+    color:white;
+
+    padding:90px 10%;
+
+}
+
+.about-wrapper{
+
+    max-width:1400px;
+
+    margin:auto;
+
+}
+
+.about-main-title{
+
+    color:white;
+
+    text-align:center;
+
+    margin-bottom:90px;
+
+}
+
+.about-section .about-container{
+
+    margin-bottom:90px;
+
+}
+
+.about-section .about-container:last-child{
+
+    margin-bottom:0;
+
+}
+
+.about-section .about-text h3{
+
+    font-family:"Playfair Display",serif;
+
+    font-size:2.2rem;
+
+    color:white;
+
+    margin-bottom:30px;
+
+}
+
+.about-section .about-text p{
+
+    color:rgba(255,255,255,.92);
+
+}
+
+.reverse{
+
+    flex-direction:row-reverse;
+
+}
 /* ==========================================
    FORMULARIO
 ========================================== */
