@@ -1042,6 +1042,12 @@ footer{
 
 }
 
+   .cards{
+
+    grid-template-columns:1fr;
+
+}
+
     section{
 
         padding:70px 8%;
