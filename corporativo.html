@@ -2,55 +2,187 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>La Voz de Nina Jade | Locutora Profesional</title>
+    <title>Locución corporativa | La Voz de Nina Jade</title>
 
     <meta name="description"
-        content="Locutora profesional especializada en publicidad, narración, e-learning, corporativo y locución comercial.">
+        content="Locución publicitaria profesional para radio, televisión, redes sociales y campañas digitales.">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+<header>
+
+    <a href="index.html" class="logo">
+        La Voz de Nina Jade
+    </a>
+
+    <nav>
+
+        <a href="index.html">Inicio</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="index.html#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+</header>
+
     <!-- ===================== -->
-    <!-- HEADER -->
-    <!-- ===================== -->
+<!-- HERO -->
+<!-- ===================== -->
 
-    <header>
+<section class="hero-service publicidad">
 
-        <div class="logo">
-            La Voz de Nina Jade
-        </div>
+    <div class="hero-service-content">
 
-        <nav>
+        <h1>Locución corporativa</h1>
 
-            <a href="#inicio">Inicio</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#contacto">Contacto</a>
-
-        </nav>
-
-    </header>
-
-     <!-- ===================== -->
-    <!-- FOOTER -->
-    <!-- ===================== -->
-
-    <footer>
-
-        <p>
-
-            © 2026 La Voz de Nina Jade
-
+        <p class="hero-subtitle">
+            Porque una buena campaña también se escucha.
         </p>
 
-    </footer>
+    </div>
 
-    <script src="script.js"></script>
+</section>
+
+
+<!-- ===================== -->
+<!-- TEXTO INTRO -->
+<!-- ===================== -->
+
+<section class="service-intro">
+
+ <p>
+
+    La voz es uno de los elementos que más influyen en cómo se percibe una marca.
+    Puede transmitir elegancia, confianza, cercanía o energía incluso antes de que
+    termine la primera frase. Cuando la interpretación acompaña al mensaje adecuado,
+    la comunicación resulta mucho más memorable.
+
+</p>
+
+    <p>
+
+        Mi formación en Comunicación Audiovisual y Marketing Digital me permite comprender
+        el objetivo de cada campaña y adaptar la interpretación para conectar con el público
+        al que se dirige. Porque una locución no consiste únicamente en leer un texto, sino en transmitir
+        exactamente aquello que la marca quiere comunicar.
+
+    </p>
+
+</section>
+
+
+<!-- ===================== -->
+<!-- ESTILOS PUBLICITARIOS -->
+<!-- ===================== -->
+
+<section class="service-types">
+
+<h2>Escucha diferentes estilos</h2>
+    
+    <p class="service-intro-text">
+    Cada proyecto tiene una personalidad propia.
+</p>
+
+<p class="service-intro-text">
+</p>
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>Cosmética y belleza</h3>
+
+            <p>
+                Una interpretación elegante y delicada para marcas de belleza, bienestar y cuidado personal.
+            </p>
+
+            <audio controls>
+
+                <source src="audio/cosmetica.mp3" type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Tecnología</h3>
+
+            <p>
+                Un tono moderno y dinámico para productos digitales, aplicaciones y nuevos servicios.
+            </p>
+
+            <audio controls>
+
+                <source src="audio/tecnologia.mp3" type="audio/mpeg">
+
+            </audio>
+
+        </div>
+</section>
+    
+<!-- ===================== -->
+<!-- CONTACTO -->
+<!-- ===================== -->
+
+<section id="contacto">
+
+    <h2>¿Hablamos de tu proyecto?</h2>
+
+    <p style="text-align:center; max-width:700px; margin:0 auto 40px;">
+
+        Cada marca tiene una historia. Encontrar la voz adecuada es el primer paso para que también sea recordada.
+
+    </p>
+
+    <form id="contact-form" action="https://formspree.io/f/xaqrydpb" method="POST">
+
+        <input
+            type="text"
+            name="nombre"
+            placeholder="Nombre"
+            required>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required>
+
+        <textarea
+            name="mensaje"
+            placeholder="Cuéntame tu proyecto"
+            required></textarea>
+
+        <button type="submit">
+            Solicitar presupuesto
+        </button>
+
+        <p id="form-status"></p>
+
+    </form>
+
+</section>
+
+
+<footer>
+
+    <p>© 2026 La Voz de Nina Jade</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 
