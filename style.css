@@ -378,6 +378,33 @@ button:hover{
 
 }
 
+/* ==========================================
+   DEMO PRINCIPAL
+========================================== */
+
+#demos{
+
+    text-align:center;
+
+}
+
+#demos p{
+
+    max-width:700px;
+
+    margin:0 auto 40px;
+
+}
+
+/* ==========================================
+   AUDIO
+========================================== */
+
+audio{
+
+    margin-top:20px;
+
+}
 
 /* ==========================================
    SECCIONES DE SERVICIOS
@@ -527,110 +554,6 @@ button:hover{
     color:var(--text);
 
     transform:translateX(4px);
-
-}
-
-/* ==========================================
-   VENTAJAS
-========================================== */
-
-.contact-highlights{
-
-    padding-top:0;
-
-}
-
-.service-highlights{
-
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:25px;
-
-}
-
-.highlight{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:16px;
-
-    padding:18px 22px;
-
-    background:var(--white);
-
-    border-radius:var(--radius-small);
-
-    box-shadow:var(--shadow-small);
-
-    transition:var(--transition);
-
-}
-
-.highlight:hover{
-
-    transform:translateX(6px);
-
-}
-
-.highlight span{
-
-    width:34px;
-    height:34px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    flex-shrink:0;
-
-    border-radius:50%;
-
-    background:var(--sage-dark);
-
-    color:var(--white);
-
-    font-weight:700;
-
-}
-
-.highlight p{
-
-    margin:0;
-
-    font-weight:600;
-
-}
-
-
-/* ==========================================
-   AUDIO
-========================================== */
-
-audio{
-
-    margin-top:20px;
-
-}
-
-/* ==========================================
-   DEMO PRINCIPAL
-========================================== */
-
-#demos{
-
-    text-align:center;
-
-}
-
-#demos p{
-
-    max-width:700px;
-
-    margin:0 auto 40px;
 
 }
 
@@ -788,6 +711,80 @@ textarea{
 
 }
 
+/* ==========================================
+   VENTAJAS
+========================================== */
+
+.contact-highlights{
+
+    padding-top:0;
+
+}
+
+.service-highlights{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.highlight{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    padding:18px 22px;
+
+    background:var(--white);
+
+    border-radius:var(--radius-small);
+
+    box-shadow:var(--shadow-small);
+
+    transition:var(--transition);
+
+}
+
+.highlight:hover{
+
+    transform:translateX(6px);
+
+}
+
+.highlight span{
+
+    width:34px;
+    height:34px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    flex-shrink:0;
+
+    border-radius:50%;
+
+    background:var(--sage-dark);
+
+    color:var(--white);
+
+    font-weight:700;
+
+}
+
+.highlight p{
+
+    margin:0;
+
+    font-weight:600;
+
+}
 
 /* ==========================================
    FOOTER
