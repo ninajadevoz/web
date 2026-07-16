@@ -379,7 +379,7 @@ button:hover{
 }
 
 /* ==========================================
-   DEMO PRINCIPAL
+   DEMO TEXTO
 ========================================== */
 
 #demos{
@@ -390,7 +390,7 @@ button:hover{
 
 #demos p{
 
-    max-width:700px;
+    max-width:1000px;
 
     margin:0 auto 40px;
 
