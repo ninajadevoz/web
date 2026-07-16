@@ -532,7 +532,7 @@ button:hover{
 
 
 /* ==========================================
-   MÁS ESPECIALIDADES
+   TODAS LAS ESPECIALIDADES
 ========================================== */
 
 .services-more{
@@ -652,6 +652,12 @@ audio{
    SOBRE MÍ
 ========================================== */
 
+.about-section{
+
+    background:var(--light);
+
+}
+
 .about-wrapper{
 
     max-width:var(--container);
@@ -694,6 +700,13 @@ audio{
 
 }
 
+.about-image img{
+
+    width:100%;
+    border-radius:var(--radius-large);
+
+}
+
 .about-text{
 
     flex:1;
@@ -703,9 +716,7 @@ audio{
 .about-text h3{
 
     font-size:2rem;
-
     color:var(--sage-dark);
-
     margin-bottom:24px;
 
 }
